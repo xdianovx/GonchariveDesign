@@ -1,0 +1,20 @@
+.partners {
+  padding-top: 38px;
+  .title-h2-l {
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 40px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+.partners__wrap {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}

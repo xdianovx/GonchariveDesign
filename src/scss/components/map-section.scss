@@ -1,0 +1,41 @@
+.map-section {
+  margin-top: 115px;
+  background: #1f1d1d;
+}
+
+.map-section__nav {
+  padding: 108px 0;
+  display: flex;
+
+  nav {
+    margin-right: 68px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 35px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin-bottom: 20px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.map-section__wrap {
+  display: flex;
+  height: 470px;
+  justify-content: space-between;
+}
+
+.map-section__map {
+  width: 50%;
+}

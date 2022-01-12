@@ -1,0 +1,49 @@
+.done {
+  background: #111010;
+  padding-top: 62px;
+  padding-bottom: 90px;
+}
+.done__wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.done__left {
+}
+
+.done__right {
+  margin-left: 78px;
+  max-width: 350px;
+
+  h4 {
+    font-weight: 300;
+    font-size: 24.9402px;
+    line-height: 34px;
+  }
+}
+
+.done__right_count {
+  font-weight: bold;
+  font-size: 206px;
+  line-height: 282px;
+  position: absolute;
+  left: -75px;
+}
+
+.done__right_text {
+  margin-top: 46px;
+}
+
+.done__right_info {
+  position: relative;
+  border: 3px solid #7a6648;
+  padding: 26px 22px;
+  width: 372px;
+  height: 372px;
+  display: flex;
+
+  h4 {
+    margin-top: auto;
+  }
+}

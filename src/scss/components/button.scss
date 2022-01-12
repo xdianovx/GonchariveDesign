@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-main {
+  transition: box-shadow 0.3s ease, background 0.1s ease;
+  background: $gold;
+  color: #ffffff;
+  padding: 14px 70px;
+  &:hover {
+  }
+
+  &:active {
+  }
+}

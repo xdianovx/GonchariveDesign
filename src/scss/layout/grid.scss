@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  max-width: calc(#{$containerWidth} + 30px);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container__large {
+  position: relative;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
