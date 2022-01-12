@@ -39,3 +39,40 @@
 .map-section__map {
   width: 50%;
 }
+
+@media (max-width: 1024px) {
+  .map-section__wrap {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .map-section__map {
+    width: 100%;
+    height: 300px;
+  }
+
+  .map-section__nav {
+    padding: 50px 0;
+    justify-content: space-around;
+  }
+
+  .map-section__nav nav h3 {
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  .map-section__nav nav li {
+    line-height: 1;
+  }
+}
+
+@media (max-width: 550px) {
+  .map-section__nav {
+    flex-direction: column;
+  }
+
+  .map-section__nav nav {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
