@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  text-align: center;
 }
 
 .btn-main {
@@ -11,6 +12,21 @@
   color: #ffffff;
   padding: 14px 70px;
   &:hover {
+  }
+
+  &:active {
+  }
+}
+
+.btn-transparent {
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #fff;
+  padding: 14px 70px;
+  &:hover {
+    background: $gold;
+    border: 1px solid $gold;
   }
 
   &:active {
