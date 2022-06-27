@@ -19,6 +19,18 @@
   justify-content: space-between;
 }
 
+.partners__item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  img {
+    object-fit: contain;
+  }
+}
+
 @media (max-width: 1440px) {
   .title-h2-l {
     font-size: 48px;
