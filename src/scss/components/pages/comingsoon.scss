@@ -1,0 +1,67 @@
+.container {
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.comingsoon-container {
+    padding: 85px 0 173px 0;
+}
+
+.comingsoon__logo {
+    width: 254px;
+    height: 69px;
+    margin: 0 auto;
+    margin-bottom: 142px;
+}
+
+.comingsoon-left img {
+    max-width: 736px;
+    height: 432px;
+    margin-right: 80px;
+}
+
+.comingsoon-main {
+    display: flex;
+}
+
+.comingsoon-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comingsoon-right__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comingsoon__heading {
+    font-size: 37px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comingsoon__descr {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 58px;
+}
+
+.comingsoon__btn {
+    padding: 14px 50px;
+}
+
+.comingsoon-right__bottom a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comingsoon__tel {
+    margin-right: 125px;
+}
+
+

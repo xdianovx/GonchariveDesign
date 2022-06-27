@@ -17,6 +17,8 @@
 <body>
   @@include('./components/header.html')
   <main>
+
+
     <!--  Hero start-->
     <section class="hero" style="background-image: url('./images/hero-bg.png')">
       <div class="hero-gd"></div>
@@ -27,7 +29,7 @@
           </div>
 
           <div class="hero__bottom">
-            <a href="#" class="btn btn-main">Заказать проект</a>
+            <a href="#" class="btn btn-main" data-micromodal-trigger="modal-1">Заказать проект</a>
             <div class="hero-arr">
               <img src="./images/arr-down.svg" alt="" />
             </div>
@@ -114,7 +116,7 @@
             <img src="./images/partner-5.png" alt="" />
           </div>
         </div>
-        <a href="#" class="btn btn-main">Портфолио</a>
+        <a href="portfolio.html" class="btn btn-main">Портфолио</a>
       </div>
     </section>
     <!-- Partners end-->
@@ -147,7 +149,7 @@
               форму обратной связи.
             </div>
 
-            <a href="#" class="btn btn-main">О студии</a>
+            <a href="comingsoon.html" class="btn btn-main">О студии</a>
           </div>
         </div>
       </div>
@@ -274,5 +276,7 @@
   </main>
 
   @@include('./components/footer.html')
+
+  
   <script src="./js/main.min.js"></script>
 </body>
