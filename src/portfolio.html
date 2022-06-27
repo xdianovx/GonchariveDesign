@@ -50,7 +50,7 @@
       <div class="container__large">
         <!-- Work -->
         <div class="work">
-          <span>01</span>
+          <span class="works__num">01</span>
           <div class="work__wrap">
             <div class="work__info">
               <h3>Ресторан Облако</h3>
@@ -63,7 +63,11 @@
                 кафе.
               </p>
 
-              <a href="#">посмотреть проект</a>
+              <div class="seeproject seeproject--r">
+                <a href="#">посмотреть проект </a>
+                <a class="portfolio-arr-right" href="#"><img src="./images/arrow-right.svg" alt="arrow"></a>
+              </div>
+
             </div>
 
             <div class="work__slider">
@@ -76,17 +80,22 @@
                   <div class="swiper-slide">
                     <img src="./images/work-2.jpg" alt="" />
                   </div>
+                  <div class="swiper-slide">
+                    <img src="./images/work-3.jpg" alt="" />
+                  </div>
                 </div>
 
-                <div class="swiper-pagination"></div>
+              <div class="swiper-pagination"></div>  
               </div>
+              
             </div>
+            
           </div>
         </div>
 
         <!-- Work -->
         <div class="work rtl">
-          <span>02</span>
+          <span class="works__num">02</span>
           <div class="work__wrap">
             <div class="work__info">
               <h3>Офис IT компании</h3>
@@ -99,7 +108,11 @@
                 мебель, учитывая Ваши пожелания.
               </p>
 
-              <a href="#">посмотреть проект</a>
+              <div class="seeproject seeproject--l">
+                <a class="portfolio-arr-left" href="#"><img src="./images/arrow-left.svg" alt="arrow"></a>
+                <a href="#">посмотреть проект </a>
+              </div>
+
             </div>
 
             <div class="work__slider">
@@ -107,10 +120,10 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="./images/work-1.jpg" alt="" />
+                    <img src="./images/work-2.jpg" alt="" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="./images/work-2.jpg" alt="" />
+                    <img src="./images/work-1.jpg" alt="" />
                   </div>
                 </div>
 
@@ -121,7 +134,7 @@
         </div>
         <!-- Work -->
         <div class="work">
-          <span>03</span>
+          <span class="works__num">03</span>
           <div class="work__wrap">
             <div class="work__info">
               <h3>
@@ -137,7 +150,11 @@
                 мебель, учитывая Ваши пожелания.
               </p>
 
-              <a href="#">посмотреть проект</a>
+              <div class="seeproject seeproject--r">
+                <a href="#">посмотреть проект </a>
+                <a class="portfolio-arr-right" href="#"><img src="./images/arrow-right.svg" alt="arrow"></a>
+              </div>
+
             </div>
 
             <div class="work__slider">
@@ -145,7 +162,7 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="./images/work-1.jpg" alt="" />
+                    <img src="./images/work-3.jpg" alt="" />
                   </div>
                   <div class="swiper-slide">
                     <img src="./images/work-2.jpg" alt="" />
@@ -156,7 +173,43 @@
               </div>
             </div>
           </div>
+        </div> <!--work part end-->
+
+        <div class="work rtl">
+          <span class="works__num">04</span>
+          <div class="work__wrap">
+            <div class="work__info">
+              <h3>Квартира ЖК Ривертаун</h3>
+
+              <p>
+                Если у Вас трехкомнатная квартира, то не стоит беспокоиться, что не хватит места для создания красивого интерьера. Можно будет воплотить практическую любую идею и не ущемлять себя в выборе мебели, ведь пространства вполне достаточно даже для классической мебели, занимающей немало места.
+              </p>
+
+              <div class="seeproject seeproject--l">
+                <a class="portfolio-arr-left" href="#"><img src="./images/arrow-left.svg" alt="arrow"></a>
+                <a href="#">посмотреть проект </a>
+              </div>
+
+            </div>
+
+            <div class="work__slider">
+              <div class="swiper work-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/work-4.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/work-1.jpg" alt="" />
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
         </div>
+        
       </div>
     </section>
     <!-- works end -->
@@ -168,7 +221,7 @@
         <form action="#">
           <input type="text" placeholder="Имя*" required />
           <input type="text" placeholder="Телефон*" required />
-          <input type="email" placeholder="Электронная почта (по желанию)" />
+          <input type="email" placeholder="Электронная почта*" required />
           <textarea
             cols="30"
             rows="10"
@@ -188,10 +241,11 @@
             <nav>
               <h3>Навигация</h3>
               <ul>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">О студии</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="comingsoon.html">О студии</a></li>
+                <li><a href="#">Порядок работы</a></li>
+                <li><a href="comingsoon.html">Блог</a></li>
                 <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Статьи</a></li>
               </ul>
             </nav>
 
