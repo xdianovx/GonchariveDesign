@@ -33,14 +33,16 @@
         <img src="./images/project-bg-b.png" alt="" />
       </div>
 
-      <div class="project-hero__num">01</div>
+      
       <div class="container">
+        
         <div class="project-hero__wrap">
-          <a href="index.html" class="logo">
+          <a href="index.html" class="logo project__logo">
             <img src="./images/logo-gd.png" alt="" />
           </a>
-
-          <h1>Ресторан Облако</h1>
+          
+          <span class="project-hero__num project-hero__num--main">01</span>
+          <h1 class="project-hero__heading--main">Ресторан Облако</h1>
         </div>
       </div>
     </section>
@@ -97,9 +99,25 @@
     <!--  Project Info End-->
 
     <!--  Project Image Start-->
-    <section class="project-image">
-      <div class="project-image__img">
-        <img src="./images/prj-1.png" alt="" />
+    <section >
+      <div class="project__slider project__slider--main">
+        <div class="swiper project-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/prj-1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/prj-2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/prj-2.png" alt="" />
+            </div>
+          </div>
+
+        <div class="swiper-pagination"></div>  
+        </div>
+        
       </div>
     </section>
     <!--  Project Image End-->
@@ -188,10 +206,21 @@
         <span class="project-description__num">04</span>
         <h2 class="title-h2-prj">Коллажи</h2>
 
-        <div class="project-description__wrap">
-          <div class="project-description__img">
-            <img src="./images/prj-3.png" alt="" />
+        <div class="project__slider">
+          <div class="swiper project-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/collages.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/collages.jpg" alt="" />
+              </div>
+            </div>
+  
+          <div class="swiper-pagination"></div>  
           </div>
+          
         </div>
       </div>
     </section>
@@ -203,10 +232,21 @@
         <span class="project-description__num">05</span>
         <h2 class="title-h2-prj">Визуализация</h2>
 
-        <div class="project-description__wrap">
-          <div class="project-description__img">
-            <img src="./images/prj-4.png" alt="" />
+        <div class="project__slider project__slider--visualization">
+          <div class="swiper project-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/prj-1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/prj-2.png" alt="" />
+              </div>
+            </div>
+  
+          <div class="swiper-pagination"></div>  
           </div>
+          
         </div>
       </div>
     </section>
@@ -219,10 +259,10 @@
         <form action="#">
           <input type="text" placeholder="Имя*" required />
           <input type="text" placeholder="Телефон*" required />
-          <input type="email" placeholder="Электронная почта (по желанию)" />
+          <input type="email" placeholder="Электронная почта*" required />
           <textarea
             cols="30"
-            rows="10"
+            rows="4"
             placeholder="Текст сообщения"
           ></textarea>
           <button type="submit" class="btn btn-main">Отправить</button>
@@ -239,10 +279,11 @@
             <nav>
               <h3>Навигация</h3>
               <ul>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">О студии</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="comingsoon.html">О студии</a></li>
+                <li><a href="#">Порядок работы</a></li>
+                <li><a href="comingsoon.html">Блог</a></li>
                 <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Статьи</a></li>
               </ul>
             </nav>
 

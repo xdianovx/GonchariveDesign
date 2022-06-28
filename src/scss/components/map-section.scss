@@ -34,10 +34,19 @@
   display: flex;
   height: 470px;
   justify-content: space-between;
+  position: relative;
 }
 
 .map-section__map {
   width: 50%;
+  
+}
+
+.logo-map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
 }
 
 @media (max-width: 1024px) {

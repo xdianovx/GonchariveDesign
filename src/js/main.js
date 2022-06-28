@@ -18,6 +18,15 @@ const swiper = new Swiper('.swiper', {
   },
 })
 
+const projectSwiper = new Swiper('.project-slider', {
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+})
+
 
 
 
