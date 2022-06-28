@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 100vh;
+  height: 900px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,13 +16,23 @@
 
 .logo {
   position: absolute;
-  top: 170px;
+  top: 210px;
   right: 0;
+}
+
+.logo-subtitle {
+  font-family: Noto sans;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 13px;
+  text-align: right;
+  letter-spacing: 4px;
 }
 
 .hero-gd {
   position: absolute;
-  top: 113px;
+  top: 155px;
   right: 0;
   width: 1301px;
   height: 284px;
@@ -34,22 +44,23 @@
   justify-content: space-between;
   margin-top: auto;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 177px;
   position: relative;
 }
 
 .hero-arr {
   position: absolute;
   bottom: -60px;
-  left: 50%;
+  left: 47%;
   transform: translateX(-50%);
 }
 
 .hero__bottom {
   .btn {
     position: relative;
-    left: 50%;
+    left: 47%;
     transform: translateX(-50%);
+    padding: 14px 60px;
   }
 }
 
