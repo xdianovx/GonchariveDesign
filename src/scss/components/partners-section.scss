@@ -94,9 +94,12 @@
 }
 
 @media (max-width: 550px) {
-  .parthers__item {
-    width: 100%;
-    max-width: 80%;
-    margin-right: 0;
-  }
+  .partners__item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
 }
